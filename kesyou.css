@@ -1,0 +1,30 @@
+.wrapper{
+  background-color: lightgreen;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+ul{
+  list-style: none;
+}
+
+h1{
+  text-align: center;
+}
+
+label{
+  display: block;
+  text-align: right;
+  padding: 0 80px;
+}
+
+.button{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.result{
+  display: none;
+  text-align: center;
+  padding: 15px 0;
+}
