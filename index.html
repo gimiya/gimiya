@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "kesyou.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <title>簡単な性格診断</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="question">
+            <h1>優しさ診断</h1>
+            <ul>
+                <li>
+                    <span>Q1.ゴミが落ちていたら拾いますか？</span>
+                    <label>
+                        <input type="radio" name="q01" class="typeA">
+                        拾う
+                    </label>
+                    <label>
+                        <input type="radio" name="q01" class="typeB">
+                        拾わない
+                    </label>
+                </li>
+                <li>
+                    <span>Q2.いつも家事をしている母の調子が悪い様子です。あなたはどうしますか？</span>
+                    <label>
+                        <input type="radio" name="q02" class="typeA">
+                        手伝う
+                    </label>
+                    <label>
+                        <input type="radio" name="q02" class="typeB">
+                        手伝わない
+                    </label>
+                </li>
+                <li>
+                    <span>Q3.友達の様子が暗いです。あなたは声をかけることにしました。どう声を掛けますか？</span>
+                    <label>
+                        <input type="radio" name="q03" class="typeA">
+                        「どうしたの？大丈夫？」
+                    </label>
+                    <label>
+                        <input type="radio" name="q03" class="typeB">
+                        そもそも、声をかけない。
+                    </label>
+                </li>
+                <li>
+                    <span>Q4.友達に手伝いをして欲しいと頼まれました。どうしますか？</span>
+                    <label>
+                        <input type="radio" name="q04" class="typeA">
+                        手伝う
+                    </label>
+                    <label>
+                        <input type="radio" name="q04" class="typeB">
+                        手伝わない
+                    </label>
+                </li>
+                <li>
+                    <span>Q5.おばあちゃんが道を迷っている様子です。声をかけますか？</span>
+                    <label>
+                        <input type="radio" name="q05" class="typeA">
+                        声をかける
+                    </label>
+                    <label>
+                        <input type="radio" name="q05" class="typeB">
+                        声をかけない
+                    </label>
+                </li>
+            </ul>
+        </div>
+        <div class="button">
+            <button>診断する</button>
+        </div>
+        <div class="result resultA">
+                あなたはとても優しい人です。
+        </div>
+        <div class="result resultB">
+                あなたは優しい人です。
+        </div>
+        <div class="result resultC">
+                あなたはたぶん優しい人です。
+        </div>
+    </div>
+<script type="text/javascript" src="ugoki.js"></script>
+</body>
+</html>
