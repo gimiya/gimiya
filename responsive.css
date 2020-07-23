@@ -1,0 +1,33 @@
+.wrapper{
+    background-color: lightskyblue;
+}
+
+@media screen and (max-width: 620px){
+    .wrapper{
+        background-color: beige;   
+    }
+
+    span{
+        display: block;
+        text-align: left;
+    }
+
+    label{
+        display: block;
+        position: relative;
+        text-align: center;
+        padding-right: 4em;
+        font-size: 90%;
+        
+        
+    }
+    
+    label input{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 70px;
+        margin: auto;
+    }
+
+}
